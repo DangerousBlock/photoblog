@@ -1,0 +1,75 @@
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Playfair Display";
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 906px;
+    margin: 0 auto;
+}
+.photo-list-item{
+    width: 420px;
+    height: 546px;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+    margin-top: 71px;
+    margin-bottom: 92px;
+    font-family: "Playfair Display";
+    font-size: 16px;
+}
+.photo-list-pretitle{
+    font-family: "Ubuntu";
+    margin-top: 62px;
+    margin-bottom: 32px;
+    color:  #B4AD9E;
+    font-size: 14px;
+}
+.photo-list-desc{
+    font-family: "Playfair Display";
+    margin-top: 40px;
+    color:  #626262;
+    font-size: 14px;
+}
+.photo-list-title{
+    font-family: "Playfair Display";
+    color:  #626262;
+    font-size: 30px;
+}
+.nav-list-item{
+    color: #7d7d7d;
+}
+.nav-list-item :hover{
+    color: #03A9F4;
+}
+section{
+    padding-top: 92px;
+    padding-bottom: 66px;
+}
+.photo-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 19px;
+    column-gap: 65px;
+}
+ul,p,h2,h3{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 94px;
+    width: 165px;
+    height: 60px;
+    font-family: "Playfair Display";
+    color: #626262;
+    background: white;
+    border-color: #626262;
+}
