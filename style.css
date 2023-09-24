@@ -55,7 +55,7 @@ section{
 .photo-list{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 19px;
+    row-gap: 130px;
     column-gap: 65px;
 }
 ul,p,h2,h3{
